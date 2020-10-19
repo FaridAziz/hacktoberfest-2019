@@ -18,7 +18,7 @@ class Elasticsearch {
     this.Client = new Client({
       node: URL,
       maxRetries: 100,
-      requestTimeout: 100000
+      requestTimeout: 1000003
     })
     this.Helper = new Helper()
   }
