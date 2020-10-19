@@ -31,4 +31,4 @@ public class Komputer {
         System.out.println("Kecepatan Processor:" +kecProcessor);
         System.out.println("Size Memory" +sizeMemory);
     }
-}
+};
